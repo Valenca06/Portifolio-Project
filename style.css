@@ -21,9 +21,9 @@
     "icon project1 project2"
     "info posts posts"
     "info post1 post1"
-    "tech hidden hidden"
-    "exp hidden hidden"
-    "edu hidden hidden";
+    "tech . ."
+    "exp . ."
+    "edu . .";
 
     grid-template-rows:100px 230px 100px 230px 200px 400px 400px;
     grid-template-columns: 350px;
@@ -88,9 +88,4 @@
     grid-area: post1;
     background-color: var(--bg-cards);
     border-radius: 15px;
-}
-
-#hidden {
-    grid-area: hidden;
-    visibility: hidden;
 }
