@@ -1,0 +1,105 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 100%;
+    background-color: var(--body-bg-color);
+    display: grid;
+    
+    grid-template-areas: 
+    "icon projects projects"
+    "icon project1 project2"
+    "info posts posts"
+    "info post1 post1"
+    "tech hidden hidden"
+    "exp hidden hidden"
+    "edu hidden hidden";
+
+    grid-template-rows:100px 230px 100px 230px 200px 400px 400px;
+    grid-template-columns: 350px;
+    
+}
+
+#icon {
+    grid-area: icon;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#info {
+    grid-area: info;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#tech {
+    grid-area: tech;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#exp {
+    grid-area: exp;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#edu {
+    grid-area: edu;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#projects {
+    grid-area: projects;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#project1 {
+    grid-area: project1;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#project2 {
+    grid-area: project2;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#posts {
+    grid-area: posts;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#post1 {
+    grid-area: post1;
+    background-color: var(--bg-cards);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#hidden {
+    grid-area: hidden;
+    visibility: hidden;
+}
